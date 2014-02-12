@@ -1,4 +1,3 @@
-module.exports = require("./lib/App");
-// exports.static = require("./lib/static");
+module.exports = require("./lib/alajs.core");
 
 

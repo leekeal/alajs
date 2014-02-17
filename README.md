@@ -44,6 +44,59 @@ alajs 使用文档
 		重新访问 http://127.0.0.1:8000
 
 
+##2 创建app目录
+查看server.js
+
+		var alajs = require("alajs"); 
+		/*加载alajs框架*/
+		var app = alajs.bootstrap("app"); 
+		/*启动alajs框架， 参数：程序文件夹名称*/
+		
+在根目录下创建bootstrap方法的参数同名的文件夹。这里可以自由设置，
+但是必须和文件夹名称想同。
+创建后的目录结构
+		
+	demo
+	    ---app
+	          ----config			---配置文件目录
+	          ----controllers    	---控制器目录
+	          ----models			---模型目录	          
+	          ----views				---视图目录
+	    ---node_modules				---依赖模块
+	    ---public					---静态资源
+	    ---server.js				---启动文件
+	    
+##3 设置配置文件
+在app/config目录下创建 app.conf.js文件加入一下内容
+	
+		var config = {
+			/*通用配置配置*/
+			general:{
+				env:"development", 
+				viewsPath:'views',
+				viewEngine:'hbs',
+				controllerPath:'controllers',
+			},
+			/*开发模式配置*/
+			development:{
+				port:8000,
+				mongodb:"mongodb://localhost/test",
+				publicFloder:"public",
+				logger:"dev",
+				directory:false
+			},
+			/*生产模式配置*/ 
+			production:{
+				port:80,
+				mongodb:"",
+			}
+		}
+
+		module.exports = config;		
+
+general里的配置，在任何模式下都会有效。general 的env配置决定当前系统的环境。env的值，决定程序执行的时候读取的配置文件内容。比如现在env 是 development，那框架启动的访问端口是就8000.
+	
+	
 #####view     动态资源文件夹
 
 主要放服务器端动态模版
@@ -79,6 +132,14 @@ res.send('test - one ');
 
 res.render('index',{data:posts});
 <!--data 视图模板文件里的变量，posts是给当前控制器的数据变量-->
+###数据类型
+####变量
+
+####数组
+
+#####对象
+
+#####对象数组
 
 模拟数据：
 	var posts = [

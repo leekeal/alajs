@@ -5,8 +5,9 @@ alajs 使用文档
 
 1. 安装修改文件重新启动工具
 
-		npm -g install node-dev
-2. 创建程序,例如demo
+		npm -g install node-dev	
+			
+2. 创建程序文件夹,例如demo
 
 3. 进入demo文件夹，安装ajajs框架模块
 
@@ -19,6 +20,7 @@ alajs 使用文档
 		/*加载alajs框架*/
 		var app = alajs.bootstrap("app"); 
 		/*启动alajs框架， 参数：程序文件夹名称*/
+		
 5. 启动程序
 		1. 普通启动 	
 			node-dev server.js
@@ -32,6 +34,7 @@ alajs 使用文档
 		[INFO]==> (2) load ctrollers success
 		[INFO]==> (3) set route success
 		[Server Start]listen on ---> http://127.0.0.1:8000
+		
 6. 访问 http://127.0.0.1:8000  显示如下内容
 	
 		欢迎使用ALA团队出品的alajs框架

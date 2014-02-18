@@ -110,7 +110,9 @@ general里的配置，在任何模式下都会有效。general 的env配置决�
  	exports.map = map;
  	
 	map['allHandler'] = "get /all";   
-	//这里指定了用get方法访问 posts/all 通过allHandler函数获取数据	exports.allHandler = function(req,res,app){
+	/*这里指定了用get方法访问 posts/all 通过allHandler函数获取数据*/
+		
+	exports.allHandler = function(req,res,app){
 		console.log("allHandler执行了");
    		res.send('执行了post的all函数');
 	}

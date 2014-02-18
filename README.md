@@ -151,6 +151,7 @@ general里的配置，在任何模式下都会有效。general 的env配置决�
 		<p>{{this.post}}</p>
 	{{/each}}
  
+ 需要重新启动程序！！！
 ###7  添加header 和 footer
  在app/views 创建header.hbs 加入
  	
@@ -170,6 +171,24 @@ general里的配置，在任何模式下都会有效。general 的env配置决�
 	{{/each}}
 
 	{{>footer}}	
+  需要重新启动程序！！！
+  
+  
+###8 获取get提交的数据
+
+ 在posts.js 添加一下代码
+ 	
+ 	map['createPost'] = "get /create";   
+
+	exports.createPost = function(req,res,app){
+		var viewsData = {};
+		var post ={};
+		post['title'] = req.query['title'];
+		post['content'] = req.query['content'];
+		res.send(post.title+'<br>'+post.content+"发表成功")
+	}
+  
+访问 http://127.0.0.1:8000/posts/create?title= 我的文章&content= 我的文章内容
   
 #####view     动态资源文件夹
 

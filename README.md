@@ -151,6 +151,25 @@ general里的配置，在任何模式下都会有效。general 的env配置决�
 		<p>{{this.post}}</p>
 	{{/each}}
  
+###7  添加header 和 footer
+ 在app/views 创建header.hbs 加入
+ 	
+ 	<div> 这里的header</div>
+ 	
+ 在app/views 创建footer.hbs 加入
+ 
+ 	<div> 这里是footerfooter</div>
+ 	
+ 修改all.hbs  内容如下
+ 
+ 	{{>header}}
+
+	{{#each posts}}
+		<h1>{{this.title}}</h1>
+		<p>{{this.post}}</p>
+	{{/each}}
+
+	{{>footer}}	
   
 #####view     动态资源文件夹
 

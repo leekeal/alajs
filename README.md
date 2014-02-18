@@ -118,7 +118,7 @@ general里的配置，在任何模式下都会有效。general 的env配置决�
 	
  访问http://127.0.0.1:8000/posts/all 将得到 “执行了post的all函数” 的页面。
  
-###5 创建第一个模板
+###5 创建动态视图
  把allHandler函数改成以下代码
  	
  	exports.allHandler = function(req,res,app){
@@ -145,6 +145,11 @@ general里的配置，在任何模式下都会有效。general 的env配置决�
 
 ###6 创建第一张模板
  在app/views 目录下创建 all.hbs
+ 	
+ 	{{#each posts}}
+		<h1>{{this.title}}</h1>
+		<p>{{this.post}}</p>
+	{{/each}}
  
   
 #####view     动态资源文件夹

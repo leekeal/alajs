@@ -22,9 +22,13 @@ alajs 使用文档
 		/*启动alajs框架， 参数：程序文件夹名称*/
 		
 5. 启动程序
-		1. 普通启动 	
+
+	1. 普通启动 	
+		
 			node-dev server.js
-		2. debug模式启动
+			
+	2. debug模式启动
+		
 			node-dev --debug server.js //启动
 				
 	显示如下内容表示启动成功
@@ -97,9 +101,56 @@ alajs 使用文档
 general里的配置，在任何模式下都会有效。general 的env配置决定当前系统的环境。env的值，决定程序执行的时候读取的配置文件内容。比如现在env 是 development，那框架启动的访问端口是就8000.
 	
 	
+
+###4 创建第一个控制器
+ 在app/controllers下的目录下创建posts.js文件比如要访问 http://127.0.0.1:8000/posts/all
+ 	我们加入一下代码: 
+ 	
+ 	var map= {};
+ 	exports.map = map;
+ 	
+	map['allHandler'] = "get /all";   
+	//这里指定了用get方法访问 posts/all 通过allHandler函数获取数据	exports.allHandler = function(req,res,app){
+		console.log("allHandler执行了");
+   		res.send('执行了post的all函数');
+	}
+	
+	
+ 访问http://127.0.0.1:8000/posts/all 将得到 “执行了post的all函数” 的页面。
+ 
+###5 创建第一个模板
+ 把allHandler函数改成以下代码
+ 	
+ 	exports.allHandler = function(req,res,app){
+ 		var viewsData = {};
+
+ 		viewsData['posts'] = [
+ 		{
+ 			"title": "leeke",
+ 			"post": "22"
+ 		},
+ 		{
+ 			"title": "accord",
+ 			"post": "23"
+ 		},
+ 		{
+ 			"title": "akira",
+ 			"post": "23"
+ 		}
+ 		];
+
+ 		res.render('all',viewsData);
+ 	}
+ 	
+
+###6 创建第一张模板
+ 在app/views 目录下创建 all.hbs
+ 
+  
 #####view     动态资源文件夹
 
 主要放服务器端动态模版
+
 
 
 控制器

@@ -1,6 +1,6 @@
 {
   "name": "alajs",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "nodeJs mvc framework",
   "main": "index.js",
   "scripts": {

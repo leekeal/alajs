@@ -106,16 +106,13 @@ general里的配置，在任何模式下都会有效。general 的env配置决�
  在app/controllers下的目录下创建posts.js文件比如要访问 http://127.0.0.1:8000/posts/all
  	我们加入一下代码: 
  	
- 	var map= {};
- 	exports.map = map;
- 	
-	map['allHandler'] = "get /all";   
-	/*这里指定了用get方法访问 posts/all 通过allHandler函数获取数据*/
-		
-	exports.allHandler = function(req,res,app){
-		console.log("allHandler执行了");
-   		res.send('执行了post的all函数');
+ 	module.exports = function(app){
+		this.get("all",function(req,res){
+			console.log("allHandler执行了");
+			res.send('执行了post的all函数');
+		});
 	}
+
 	
 	
  访问http://127.0.0.1:8000/posts/all 将得到 “执行了post的all函数” 的页面。
@@ -123,26 +120,31 @@ general里的配置，在任何模式下都会有效。general 的env配置决�
 ###5 创建动态视图
  把allHandler函数改成以下代码
  	
- 	exports.allHandler = function(req,res,app){
- 		var viewsData = {};
+ 	module.exports = function(app){
+		this.get('/all',function(req,res){
 
- 		viewsData['posts'] = [
- 		{
- 			"title": "leeke",
- 			"post": "22"
- 		},
- 		{
- 			"title": "accord",
- 			"post": "23"
- 		},
- 		{
- 			"title": "akira",
- 			"post": "23"
- 		}
- 		];
+			var viewsData = {};
 
- 		res.render('all',viewsData);
- 	}
+			viewsData['posts'] = [
+			{
+				"title": "leeke",
+				"post": "22"
+			},
+			{
+				"title": "accord",
+				"post": "23"
+			},
+			{
+				"title": "akira",
+				"post": "23"
+			}
+			];
+
+		
+
+			res.render('all',viewsData);
+		});
+	}
  	
 
 ###6 创建第一张模板

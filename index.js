@@ -10,7 +10,10 @@ GLOBAL.alajs = {
 		core.bootstrap();
 		return core;
 
-	}
+	},
+
+
+	validator : require('validator')
 }
 
 module.exports = global.alajs;

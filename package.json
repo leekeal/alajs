@@ -1,6 +1,6 @@
 {
   "name": "alajs",
-  "version": "1.0.61",
+  "version": "1.0.62",
   "description": "nodeJs mvc framework",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,8 @@
     "connect-flash": "~0.1.1",
     "mongoose": "~3.8.8",
     "validator": "~3.3.0",
-    "ala-mongoose-validator": "latest"
+    "ala-mongoose-validator": "latest",
+    "mongoose-auto-increment": "~2.1.3"
   },
   "dependencies": {
     "colors": "~0.6.2",
@@ -39,6 +40,7 @@
     "connect-flash": "~0.1.1",
     "mongoose": "~3.8.8",
     "validator": "~3.3.0",
-    "ala-mongoose-validator": "latest"
+    "ala-mongoose-validator": "latest",
+    "mongoose-auto-increment": "~2.1.3"
   }
 }

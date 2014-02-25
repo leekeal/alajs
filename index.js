@@ -13,7 +13,8 @@ GLOBAL.alajs = {
 	},
 
 
-	validator : require('validator')
+	validator : require('validator'),
+	md5:require('MD5')
 }
 
 module.exports = global.alajs;

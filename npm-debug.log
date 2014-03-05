@@ -1,0 +1,184 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/Users/fwind/.nvm/v0.11.9/bin/npm', 'publish' ]
+2 info using npm@1.3.22
+3 info using node@v0.11.9
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/fwind/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/tmp.tgz
+12 verbose folder .
+13 info prepublish alajs@1.0.67
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/fwind/.npm/1f1177db-tar.lock
+16 silly lockFile 52831e07-284-0-003104905830696225-tmp-tgz tar:///var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/tmp.tgz
+17 verbose lock tar:///var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/tmp.tgz /Users/fwind/.npm/52831e07-284-0-003104905830696225-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 52831e07-284-0-003104905830696225-tmp-tgz tar:///var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/tmp.tgz
+21 silly lockFile 52831e07-284-0-003104905830696225-tmp-tgz tar:///var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/tmp.tgz
+22 verbose tar unpack /var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/tmp.tgz
+23 silly lockFile d4b4a4be-284-0-003104905830696225-package tar:///var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/package
+24 verbose lock tar:///var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/package /Users/fwind/.npm/d4b4a4be-284-0-003104905830696225-package.lock
+25 silly lockFile 52831e07-284-0-003104905830696225-tmp-tgz tar:///var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/tmp.tgz
+26 verbose lock tar:///var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/tmp.tgz /Users/fwind/.npm/52831e07-284-0-003104905830696225-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry index.js
+31 silly gunzTarPerm extractEntry favicon.ico
+32 silly gunzTarPerm extractEntry lib/alaEventHandler.js
+33 silly gunzTarPerm extractEntry lib/router.js
+34 silly gunzTarPerm extractEntry lib/bootMiddleware.js
+35 silly gunzTarPerm extractEntry lib/configuration.js
+36 silly gunzTarPerm extractEntry lib/alajsTools.js
+37 silly gunzTarPerm extractEntry lib/alajs.core.js
+38 silly gunzTarPerm extractEntry lib/defaultConfig.js
+39 silly gunzTarPerm extractEntry lib/globalHandler.js
+40 silly gunzTarPerm extractEntry lib/middleware.js
+41 silly gunzTarPerm extractEntry lib/newCtrl.js
+42 silly gunzTarPerm extractEntry lib/ctrlHandler.js
+43 silly gunzTarPerm extractEntry lib/viewHandler.js
+44 silly gunzTarPerm extractEntry lib/db.js
+45 silly gunzTarPerm extractEntry lib/baseClass/baseController.js
+46 silly gunzTarPerm extractEntry lib/baseClass/baseModel.js
+47 silly lockFile d4b4a4be-284-0-003104905830696225-package tar:///var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/package
+48 silly lockFile d4b4a4be-284-0-003104905830696225-package tar:///var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/package
+49 silly lockFile 52831e07-284-0-003104905830696225-tmp-tgz tar:///var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/tmp.tgz
+50 silly lockFile 52831e07-284-0-003104905830696225-tmp-tgz tar:///var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/tmp.tgz
+51 verbose tar pack [ '/Users/fwind/.npm/alajs/1.0.67/package.tgz',
+51 verbose tar pack   '/var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/package' ]
+52 verbose tarball /Users/fwind/.npm/alajs/1.0.67/package.tgz
+53 verbose folder /var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/package
+54 silly lockFile d4b4a4be-284-0-003104905830696225-package tar:///var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/package
+55 verbose lock tar:///var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/package /Users/fwind/.npm/d4b4a4be-284-0-003104905830696225-package.lock
+56 silly lockFile b9082217-ind-npm-alajs-1-0-67-package-tgz tar:///Users/fwind/.npm/alajs/1.0.67/package.tgz
+57 verbose lock tar:///Users/fwind/.npm/alajs/1.0.67/package.tgz /Users/fwind/.npm/b9082217-ind-npm-alajs-1-0-67-package-tgz.lock
+58 silly lockFile d4b4a4be-284-0-003104905830696225-package tar:///var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/package
+59 silly lockFile d4b4a4be-284-0-003104905830696225-package tar:///var/folders/4_/cj5g2zn93898y_8zl3k3ycw40000gn/T/npm-30130-BOePLBo0/1393961937284-0.003104905830696225/package
+60 silly lockFile b9082217-ind-npm-alajs-1-0-67-package-tgz tar:///Users/fwind/.npm/alajs/1.0.67/package.tgz
+61 silly lockFile b9082217-ind-npm-alajs-1-0-67-package-tgz tar:///Users/fwind/.npm/alajs/1.0.67/package.tgz
+62 silly lockFile e841210e-s-fwind-npm-alajs-1-0-67-package /Users/fwind/.npm/alajs/1.0.67/package
+63 verbose lock /Users/fwind/.npm/alajs/1.0.67/package /Users/fwind/.npm/e841210e-s-fwind-npm-alajs-1-0-67-package.lock
+64 silly lockFile e841210e-s-fwind-npm-alajs-1-0-67-package /Users/fwind/.npm/alajs/1.0.67/package
+65 silly lockFile e841210e-s-fwind-npm-alajs-1-0-67-package /Users/fwind/.npm/alajs/1.0.67/package
+66 verbose tar unpack /Users/fwind/.npm/alajs/1.0.67/package.tgz
+67 silly lockFile fb97f5a8-s-fwind-npm-alajs-1-0-67-package tar:///Users/fwind/.npm/alajs/1.0.67/package
+68 verbose lock tar:///Users/fwind/.npm/alajs/1.0.67/package /Users/fwind/.npm/fb97f5a8-s-fwind-npm-alajs-1-0-67-package.lock
+69 silly lockFile b9082217-ind-npm-alajs-1-0-67-package-tgz tar:///Users/fwind/.npm/alajs/1.0.67/package.tgz
+70 verbose lock tar:///Users/fwind/.npm/alajs/1.0.67/package.tgz /Users/fwind/.npm/b9082217-ind-npm-alajs-1-0-67-package-tgz.lock
+71 silly gunzTarPerm modes [ '755', '644' ]
+72 silly gunzTarPerm extractEntry package.json
+73 silly gunzTarPerm extractEntry README.md
+74 silly gunzTarPerm extractEntry index.js
+75 silly gunzTarPerm extractEntry favicon.ico
+76 silly gunzTarPerm extractEntry lib/alaEventHandler.js
+77 silly gunzTarPerm extractEntry lib/router.js
+78 silly gunzTarPerm extractEntry lib/bootMiddleware.js
+79 silly gunzTarPerm extractEntry lib/configuration.js
+80 silly gunzTarPerm extractEntry lib/alajsTools.js
+81 silly gunzTarPerm extractEntry lib/alajs.core.js
+82 silly gunzTarPerm extractEntry lib/defaultConfig.js
+83 silly gunzTarPerm extractEntry lib/globalHandler.js
+84 silly gunzTarPerm extractEntry lib/middleware.js
+85 silly gunzTarPerm extractEntry lib/newCtrl.js
+86 silly gunzTarPerm extractEntry lib/ctrlHandler.js
+87 silly gunzTarPerm extractEntry lib/viewHandler.js
+88 silly gunzTarPerm extractEntry lib/db.js
+89 silly gunzTarPerm extractEntry lib/baseClass/baseController.js
+90 silly gunzTarPerm extractEntry lib/baseClass/baseModel.js
+91 silly lockFile fb97f5a8-s-fwind-npm-alajs-1-0-67-package tar:///Users/fwind/.npm/alajs/1.0.67/package
+92 silly lockFile fb97f5a8-s-fwind-npm-alajs-1-0-67-package tar:///Users/fwind/.npm/alajs/1.0.67/package
+93 silly lockFile b9082217-ind-npm-alajs-1-0-67-package-tgz tar:///Users/fwind/.npm/alajs/1.0.67/package.tgz
+94 silly lockFile b9082217-ind-npm-alajs-1-0-67-package-tgz tar:///Users/fwind/.npm/alajs/1.0.67/package.tgz
+95 verbose chmod /Users/fwind/.npm/alajs/1.0.67/package.tgz 644
+96 verbose chown /Users/fwind/.npm/alajs/1.0.67/package.tgz [ 501, 20 ]
+97 silly lockFile 3a52ce78- .
+98 silly lockFile 3a52ce78- .
+99 silly publish { name: 'alajs',
+99 silly publish   version: '1.0.67',
+99 silly publish   description: 'nodeJs mvc framework',
+99 silly publish   main: 'index.js',
+99 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+99 silly publish   repository: { type: 'git', url: 'git@bitbucket.org:ala-software/alajs.git' },
+99 silly publish   keywords: [ 'nodejs', 'mvc' ],
+99 silly publish   author: { name: 'leeke' },
+99 silly publish   license: 'MIT License',
+99 silly publish   devDependencies:
+99 silly publish    { express: '~3.4.8',
+99 silly publish      colors: '~0.6.2',
+99 silly publish      mongodb: '~1.3.23',
+99 silly publish      debug: '~0.7.4',
+99 silly publish      'date-format-lite': '~0.5.0',
+99 silly publish      'connect-mongo': '~0.4.0',
+99 silly publish      'express-hbs': '~0.7.9',
+99 silly publish      'connect-flash': '~0.1.1',
+99 silly publish      mongoose: '~3.8.8',
+99 silly publish      validator: '~3.3.0',
+99 silly publish      'ala-mongoose-validator': 'latest',
+99 silly publish      'mongoose-auto-increment': '~2.1.3',
+99 silly publish      MD5: '~1.2.0' },
+99 silly publish   dependencies:
+99 silly publish    { colors: '~0.6.2',
+99 silly publish      express: '~3.4.8',
+99 silly publish      mongodb: '~1.3.23',
+99 silly publish      'date-format-lite': '~0.5.0',
+99 silly publish      'connect-mongo': '~0.4.0',
+99 silly publish      'express-hbs': '~0.7.9',
+99 silly publish      'connect-flash': '~0.1.1',
+99 silly publish      mongoose: '~3.8.8',
+99 silly publish      validator: '~3.3.0',
+99 silly publish      'ala-mongoose-validator': 'latest',
+99 silly publish      'mongoose-auto-increment': '~2.1.3',
+99 silly publish      MD5: '~1.2.0' },
+99 silly publish   readme: 'alajs 使用文档\n=============\n##1.安装\n\n\n1. 安装修改文件重新启动工具\n\n\t\tnpm -g install node-dev\t\n\t\t\t\n2. 创建程序文件夹,例如demo\n\n3. 进入demo文件夹，安装ajajs框架模块\n\n\t\tnpm install alajs --save-dev\n\t\n\n4. 创建server.js文件,加入以下内容。\n\n\t\tvar alajs = require("alajs"); \n\t\t/*加载alajs框架*/\n\t\tvar app = alajs.bootstrap("app"); \n\t\t/*启动alajs框架， 参数：程序文件夹名称*/\n\t\t\n5. 启动程序\n\n\t1. 普通启动 \t\n\t\t\n\t\t\tnode-dev server.js\n\t\t\t\n\t2. debug模式启动\n\t\t\n\t\t\tnode-dev --debug server.js //启动\n\t\t\t\t\n\t显示如下内容表示启动成功\n\t\t\n\t\tDebugger listening on port 5858\n\t\t[INFO]==> (1) configuration success\n\t\t[INFO]==> (2) load ctrollers success\n\t\t[INFO]==> (3) set route success\n\t\t[Server Start]listen on ---> http://127.0.0.1:8000\n\t\t\n6. 访问 http://127.0.0.1:8000  显示如下内容\n\t\n\t\t欢迎使用ALA团队出品的alajs框架\n\t\t\n7. 创建自己的第一个页面在根目录下创建public文件夹,然后创建 index.html,写入任意内容。\n\t\n\t\t重新访问 http://127.0.0.1:8000\n\n\n##2 创建app目录\n查看server.js\n\n\t\tvar alajs = require("alajs"); \n\t\t/*加载alajs框架*/\n\t\tvar app = alajs.bootstrap("app"); \n\t\t/*启动alajs框架， 参数：程序文件夹名称*/\n\t\t\n在根目录下创建bootstrap方法的参数同名的文件夹。这里可以自由设置，\n但是必须和文件夹名称想同。\n创建后的目录结构\n\t\t\n\tdemo\n\t    ---app\n\t          ----config\t\t\t---配置文件目录\n\t          ----controllers    \t---控制器目录\n\t          ----models\t\t\t---模型目录\t          \n\t          ----views\t\t\t\t---视图目录\n\t    ---node_modules\t\t\t\t---依赖模块\n\t    ---public\t\t\t\t\t---静态资源\n\t    ---server.js\t\t\t\t---启动文件\n\t    \n##3 设置配置文件\n在app/config目录下创建 app.conf.js文件加入一下内容\n\t\n\t\tvar config = {\n\t\t\t/*通用配置配置*/\n\t\t\tgeneral:{\n\t\t\t\tenv:"development", \n\t\t\t\tviewsPath:\'views\',\n\t\t\t\tviewEngine:\'hbs\',\n\t\t\t\tcontrollerPath:\'controllers\',\n\t\t\t},\n\t\t\t/*开发模式配置*/\n\t\t\tdevelopment:{\n\t\t\t\tport:8000,\n\t\t\t\tmongodb:"mongodb://localhost/test",\n\t\t\t\tpublicFloder:"public",\n\t\t\t\tlogger:"dev",\n\t\t\t\tdirectory:false\n\t\t\t},\n\t\t\t/*生产模式配置*/ \n\t\t\tproduction:{\n\t\t\t\tport:80,\n\t\t\t\tmongodb:"",\n\t\t\t}\n\t\t}\n\n\t\tmodule.exports = config;\t\t\n\ngeneral里的配置，在任何模式下都会有效。general 的env配置决定当前系统的环境。env的值，决定程序执行的时候读取的配置文件内容。比如现在env 是 development，那框架启动的访问端口是就8000.\n\t\n\t\n\n###4 创建第一个控制器\n 在app/controllers下的目录下创建posts.js文件比如要访问 http://127.0.0.1:8000/posts/all\n \t我们加入一下代码: \n \t\n \tmodule.exports = function(app){\n\t\tthis.get("all",function(req,res){\n\t\t\tconsole.log("allHandler执行了");\n\t\t\tres.send(\'执行了post的all函数\');\n\t\t});\n\t}\n\n\t\n\t\n 访问http://127.0.0.1:8000/posts/all 将得到 “执行了post的all函数” 的页面。\n \n###5 创建动态视图\n 把allHandler函数改成以下代码\n \t\n \tmodule.exports = function(app){\n\t\tthis.get(\'/all\',function(req,res){\n\n\t\t\tvar viewsData = {};\n\n\t\t\tviewsData[\'posts\'] = [\n\t\t\t{\n\t\t\t\t"title": "leeke",\n\t\t\t\t"post": "22"\n\t\t\t},\n\t\t\t{\n\t\t\t\t"title": "accord",\n\t\t\t\t"post": "23"\n\t\t\t},\n\t\t\t{\n\t\t\t\t"title": "akira",\n\t\t\t\t"post": "23"\n\t\t\t}\n\t\t\t];\n\n\t\t\n\n\t\t\tres.render(\'all\',viewsData);\n\t\t});\n\t}\n \t\n\n###6 创建第一张模板\n 在app/views 目录下创建 all.hbs\n \t\n \t{{#each posts}}\n\t\t<h1>{{this.title}}</h1>\n\t\t<p>{{this.post}}</p>\n\t{{/each}}\n \n 需要重新启动程序！！！\n###7  添加header 和 footer\n 在app/views 创建header.hbs 加入\n \t\n \t<div> 这里的header</div>\n \t\n 在app/views 创建footer.hbs 加入\n \n \t<div> 这里是footerfooter</div>\n \t\n 修改all.hbs  内容如下\n \n \t{{>header}}\n\n\t{{#each posts}}\n\t\t<h1>{{this.title}}</h1>\n\t\t<p>{{this.post}}</p>\n\t{{/each}}\n\n\t{{>footer}}\t\n  需要重新启动程序！！！\n  \n  \n###8 获取get提交的数据\n\n 在posts.js 添加一下代码\n \t\n \tmap[\'createPost\'] = "get /create";   \n\n\texports.createPost = function(req,res,app){\n\t\tvar viewsData = {};\n\t\tvar post ={};\n\t\tpost[\'title\'] = req.query[\'title\'];\n\t\tpost[\'content\'] = req.query[\'content\'];\n\t\tres.send(post.title+\'<br>\'+post.content+"发表成功")\n\t}\n  \n访问 http://127.0.0.1:8000/posts/create?title= 我的文章&content= 我的文章内容\n  \n#####view     动态资源文件夹\n\n主要放服务器端动态模版\n\n\n\n控制器\n\n var map= {};\n exports.map = map;\n\n\nmap[\'index\'] = "get /all";\n\n<!--map 是进行ura路径设置，index指代下面的函数名称，get指的\n是表单的提交方式，控制器文件名称＋空格后面的路径＝访问路径\nhttp://127.0.0.1:8000/post／all\n-->\nexports.index = function(req,res,app){\n   res.render(\'index\',{title:\'alablog\'});\n\n}\n\nres.send(\'test - one \');\n<!--res.send是向浏览器端发送文本数据-->\n res.render(\'index\',{title:\'alablog\'});\n <!--res.render函数是调用模版显示他的参数第一个为模版名称，第二个参数是向模版传递变量-->\n \n \n {{> header}}\n \n {{> footer}}\n <!--要插哪里就写在哪里-->\n\nres.render(\'index\',{data:posts});\n<!--data 视图模板文件里的变量，posts是给当前控制器的数据变量-->\n###数据类型\n####变量\n\n####数组\n\n#####对象\n\n#####对象数组\n\n模拟数据：\n\tvar posts = [\n\t{\n\t\t"title": "leeke",\n\t\t"post": "22"\n\t},\n\t{\n\t\t"title": "accord",\n\t\t"post": "23"\n\t},\n\t{\n\t\t"title": "akira",\n\t\t"post": "23"\n\t}\n\t];\n\n\n}<!--这就是一个3次循环-->\n\n{{#each data}}\n\t\t<div class="post">\n\t\t\t<h3>{{this.title}}</h3>\n{{/each}}\n<!--这就是一个提取内容的例子-->\n\n',
+99 silly publish   readmeFilename: 'README.md',
+99 silly publish   _id: 'alajs@1.0.67',
+99 silly publish   dist: { shasum: 'd10cd109fe0b9ababb62e2288c3385c9fc6a1f97' },
+99 silly publish   _from: '.' }
+100 verbose url raw alajs
+101 verbose url resolving [ 'https://registry.npmjs.org/', './alajs' ]
+102 verbose url resolved https://registry.npmjs.org/alajs
+103 info trying registry request attempt 1 at 04:38:57
+104 http PUT https://registry.npmjs.org/alajs
+105 http 403 https://registry.npmjs.org/alajs
+106 info trying registry request attempt 1 at 04:39:01
+107 http PUT https://registry.npmjs.org/alajs
+108 http 403 https://registry.npmjs.org/alajs
+109 error publish Failed PUT 403
+110 error Error: forbidden cannot modify pre-existing version: 1.0.67
+110 error old={"name":"alajs","version":"1.0.67","description":"nodeJs mvc framework","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"git@bitbucket.org:ala-software/alajs.git"},"keywords":["nodejs","mvc"],"author":{"name":"leeke"},"license":"MIT License","devDependencies":{"express":"~3.4.8","colors":"~0.6.2","mongodb":"~1.3.23","debug":"~0.7.4","date-format-lite":"~0.5.0","connect-mongo":"~0.4.0","express-hbs":"~0.7.9","connect-flash":"~0.1.1","mongoose":"~3.8.8","validator":"~3.3.0","ala-mongoose-validator":"latest","mongoose-auto-increment":"~2.1.3","MD5":"~1.2.0"},"dependencies":{"colors":"~0.6.2","express":"~3.4.8","mongodb":"~1.3.23","date-format-lite":"~0.5.0","connect-mongo":"~0.4.0","express-hbs":"~0.7.9","connect-flash":"~0.1.1","mongoose":"~3.8.8","validator":"~3.3.0","ala-mongoose-validator":"latest","mongoose-auto-increment":"~2.1.3","MD5":"~1.2.0"},"_id":"alajs@1.0.67","dist":{"shasum":"5e99ed08ea542222189460049f7aae35eda806ec","tarball":"http://registry.npmjs.org/alajs/-/alajs-1.0.67.tgz"},"_from":".","_npmVersion":"1.3.22","_npmUser":{"name":"leeke","email":"leeke@ala-team.com"},"maintainers":[{"name":"leeke","email":"leeke@ala-team.com"}]}
+110 error new={"name":"alajs","version":"1.0.67","description":"nodeJs mvc framework","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"git@bitbucket.org:ala-software/alajs.git"},"keywords":["nodejs","mvc"],"author":{"name":"leeke"},"license":"MIT License","devDependencies":{"express":"~3.4.8","colors":"~0.6.2","mongodb":"~1.3.23","debug":"~0.7.4","date-format-lite":"~0.5.0","connect-mongo":"~0.4.0","express-hbs":"~0.7.9","connect-flash":"~0.1.1","mongoose":"~3.8.8","validator":"~3.3.0","ala-mongoose-validator":"latest","mongoose-auto-increment":"~2.1.3","MD5":"~1.2.0"},"dependencies":{"colors":"~0.6.2","express":"~3.4.8","mongodb":"~1.3.23","date-format-lite":"~0.5.0","connect-mongo":"~0.4.0","express-hbs":"~0.7.9","connect-flash":"~0.1.1","mongoose":"~3.8.8","validator":"~3.3.0","ala-mongoose-validator":"latest","mongoose-auto-increment":"~2.1.3","MD5":"~1.2.0"},"readme":"alajs 使用文档\u000a=============\u000a##1.安装\u000a\u000a\u000a1. 安装修改文件重新启动工具\u000a\u000a\u0009\u0009npm -g install node-dev\u0009\u000a\u0009\u0009\u0009\u000a2. 创建程序文件夹,例如demo\u000a\u000a3. 进入demo文件夹，安装ajajs框架模块\u000a\u000a\u0009\u0009npm install alajs --save-dev\u000a\u0009\u000a\u000a4. 创建server.js文件,加入以下内容。\u000a\u000a\u0009\u0009var alajs = require(\"alajs\"); \u000a\u0009\u0009/*加载alajs框架*/\u000a\u0009\u0009var app = alajs.bootstrap(\"app\"); \u000a\u0009\u0009/*启动alajs框架， 参数：程序文件夹名称*/\u000a\u0009\u0009\u000a5. 启动程序\u000a\u000a\u00091. 普通启动 \u0009\u000a\u0009\u0009\u000a\u0009\u0009\u0009node-dev server.js\u000a\u0009\u0009\u0009\u000a\u00092. debug模式启动\u000a\u0009\u0009\u000a\u0009\u0009\u0009node-dev --debug server.js //启动\u000a\u0009\u0009\u0009\u0009\u000a\u0009显示如下内容表示启动成功\u000a\u0009\u0009\u000a\u0009\u0009Debugger listening on port 5858\u000a\u0009\u0009[INFO]==> (1) configuration success\u000a\u0009\u0009[INFO]==> (2) load ctrollers success\u000a\u0009\u0009[INFO]==> (3) set route success\u000a\u0009\u0009[Server Start]listen on ---> http://127.0.0.1:8000\u000a\u0009\u0009\u000a6. 访问 http://127.0.0.1:8000  显示如下内容\u000a\u0009\u000a\u0009\u0009欢迎使用ALA团队出品的alajs框架\u000a\u0009\u0009\u000a7. 创建自己的第一个页面在根目录下创建public文件夹,然后创建 index.html,写入任意内容。\u000a\u0009\u000a\u0009\u0009重新访问 http://127.0.0.1:8000\u000a\u000a\u000a##2 创建app目录\u000a查看server.js\u000a\u000a\u0009\u0009var alajs = require(\"alajs\"); \u000a\u0009\u0009/*加载alajs框架*/\u000a\u0009\u0009var app = alajs.bootstrap(\"app\"); \u000a\u0009\u0009/*启动alajs框架， 参数：程序文件夹名称*/\u000a\u0009\u0009\u000a在根目录下创建bootstrap方法的参数同名的文件夹。这里可以自由设置，\u000a但是必须和文件夹名称想同。\u000a创建后的目录结构\u000a\u0009\u0009\u000a\u0009demo\u000a\u0009    ---app\u000a\u0009          ----config\u0009\u0009\u0009---配置文件目录\u000a\u0009          ----controllers    \u0009---控制器目录\u000a\u0009          ----models\u0009\u0009\u0009---模型目录\u0009          \u000a\u0009          ----views\u0009\u0009\u0009\u0009---视图目录\u000a\u0009    ---node_modules\u0009\u0009\u0009\u0009---依赖模块\u000a\u0009    ---public\u0009\u0009\u0009\u0009\u0009---静态资源\u000a\u0009    ---server.js\u0009\u0009\u0009\u0009---启动文件\u000a\u0009    \u000a##3 设置配置文件\u000a在app/config目录下创建 app.conf.js文件加入一下内容\u000a\u0009\u000a\u0009\u0009var config = {\u000a\u0009\u0009\u0009/*通用配置配置*/\u000a\u0009\u0009\u0009general:{\u000a\u0009\u0009\u0009\u0009env:\"development\", \u000a\u0009\u0009\u0009\u0009viewsPath:'views',\u000a\u0009\u0009\u0009\u0009viewEngine:'hbs',\u000a\u0009\u0009\u0009\u0009controllerPath:'controllers',\u000a\u0009\u0009\u0009},\u000a\u0009\u0009\u0009/*开发模式配置*/\u000a\u0009\u0009\u0009development:{\u000a\u0009\u0009\u0009\u0009port:8000,\u000a\u0009\u0009\u0009\u0009mongodb:\"mongodb://localhost/test\",\u000a\u0009\u0009\u0009\u0009publicFloder:\"public\",\u000a\u0009\u0009\u0009\u0009logger:\"dev\",\u000a\u0009\u0009\u0009\u0009directory:false\u000a\u0009\u0009\u0009},\u000a\u0009\u0009\u0009/*生产模式配置*/ \u000a\u0009\u0009\u0009production:{\u000a\u0009\u0009\u0009\u0009port:80,\u000a\u0009\u0009\u0009\u0009mongodb:\"\",\u000a\u0009\u0009\u0009}\u000a\u0009\u0009}\u000a\u000a\u0009\u0009module.exports = config;\u0009\u0009\u000a\u000ageneral里的配置，在任何模式下都会有效。general 的env配置决定当前系统的环境。env的值，决定程序执行的时候读取的配置文件内容。比如现在env 是 development，那框架启动的访问端口是就8000.\u000a\u0009\u000a\u0009\u000a\u000a###4 创建第一个控制器\u000a 在app/controllers下的目录下创建posts.js文件比如要访问 http://127.0.0.1:8000/posts/all\u000a \u0009我们加入一下代码: \u000a \u0009\u000a \u0009module.exports = function(app){\u000a\u0009\u0009this.get(\"all\",function(req,res){\u000a\u0009\u0009\u0009console.log(\"allHandler执行了\");\u000a\u0009\u0009\u0009res.send('执行了post的all函数');\u000a\u0009\u0009});\u000a\u0009}\u000a\u000a\u0009\u000a\u0009\u000a 访问http://127.0.0.1:8000/posts/all 将得到 “执行了post的all函数” 的页面。\u000a \u000a###5 创建动态视图\u000a 把allHandler函数改成以下代码\u000a \u0009\u000a \u0009module.exports = function(app){\u000a\u0009\u0009this.get('/all',function(req,res){\u000a\u000a\u0009\u0009\u0009var viewsData = {};\u000a\u000a\u0009\u0009\u0009viewsData['posts'] = [\u000a\u0009\u0009\u0009{\u000a\u0009\u0009\u0009\u0009\"title\": \"leeke\",\u000a\u0009\u0009\u0009\u0009\"post\": \"22\"\u000a\u0009\u0009\u0009},\u000a\u0009\u0009\u0009{\u000a\u0009\u0009\u0009\u0009\"title\": \"accord\",\u000a\u0009\u0009\u0009\u0009\"post\": \"23\"\u000a\u0009\u0009\u0009},\u000a\u0009\u0009\u0009{\u000a\u0009\u0009\u0009\u0009\"title\": \"akira\",\u000a\u0009\u0009\u0009\u0009\"post\": \"23\"\u000a\u0009\u0009\u0009}\u000a\u0009\u0009\u0009];\u000a\u000a\u0009\u0009\u000a\u000a\u0009\u0009\u0009res.render('all',viewsData);\u000a\u0009\u0009});\u000a\u0009}\u000a \u0009\u000a\u000a###6 创建第一张模板\u000a 在app/views 目录下创建 all.hbs\u000a \u0009\u000a \u0009{{#each posts}}\u000a\u0009\u0009<h1>{{this.title}}</h1>\u000a\u0009\u0009<p>{{this.post}}</p>\u000a\u0009{{/each}}\u000a \u000a 需要重新启动程序！！！\u000a###7  添加header 和 footer\u000a 在app/views 创建header.hbs 加入\u000a \u0009\u000a \u0009<div> 这里的header</div>\u000a \u0009\u000a 在app/views 创建footer.hbs 加入\u000a \u000a \u0009<div> 这里是footerfooter</div>\u000a \u0009\u000a 修改all.hbs  内容如下\u000a \u000a \u0009{{>header}}\u000a\u000a\u0009{{#each posts}}\u000a\u0009\u0009<h1>{{this.title}}</h1>\u000a\u0009\u0009<p>{{this.post}}</p>\u000a\u0009{{/each}}\u000a\u000a\u0009{{>footer}}\u0009\u000a  需要重新启动程序！！！\u000a  \u000a  \u000a###8 获取get提交的数据\u000a\u000a 在posts.js 添加一下代码\u000a \u0009\u000a \u0009map['createPost'] = \"get /create\";   \u000a\u000a\u0009exports.createPost = function(req,res,app){\u000a\u0009\u0009var viewsData = {};\u000a\u0009\u0009var post ={};\u000a\u0009\u0009post['title'] = req.query['title'];\u000a\u0009\u0009post['content'] = req.query['content'];\u000a\u0009\u0009res.send(post.title+'<br>'+post.content+\"发表成功\")\u000a\u0009}\u000a  \u000a访问 http://127.0.0.1:8000/posts/create?title= 我的文章&content= 我的文章内容\u000a  \u000a#####view     动态资源文件夹\u000a\u000a主要放服务器端动态模版\u000a\u000a\u000a\u000a控制器\u000a\u000a var map= {};\u000a exports.map = map;\u000a\u000a\u000amap['index'] = \"get /all\";\u000a\u000a<!--map 是进行ura路径设置，index指代下面的函数名称，get指的\u000a是表单的提交方式，控制器文件名称＋空格后面的路径＝访问路径\u000ahttp://127.0.0.1:8000/post／all\u000a-->\u000aexports.index = function(req,res,app){\u000a   res.render('index',{title:'alablog'});\u000a\u000a}\u000a\u000ares.send('test - one ');\u000a<!--res.send是向浏览器端发送文本数据-->\u000a res.render('index',{title:'alablog'});\u000a <!--res.render函数是调用模版显示他的参数第一个为模版名称，第二个参数是向模版传递变量-->\u000a \u000a \u000a {{> header}}\u000a \u000a {{> footer}}\u000a <!--要插哪里就写在哪里-->\u000a\u000ares.render('index',{data:posts});\u000a<!--data 视图模板文件里的变量，posts是给当前控制器的数据变量-->\u000a###数据类型\u000a####变量\u000a\u000a####数组\u000a\u000a#####对象\u000a\u000a#####对象数组\u000a\u000a模拟数据：\u000a\u0009var posts = [\u000a\u0009{\u000a\u0009\u0009\"title\": \"leeke\",\u000a\u0009\u0009\"post\": \"22\"\u000a\u0009},\u000a\u0009{\u000a\u0009\u0009\"title\": \"accord\",\u000a\u0009\u0009\"post\": \"23\"\u000a\u0009},\u000a\u0009{\u000a\u0009\u0009\"title\": \"akira\",\u000a\u0009\u0009\"post\": \"23\"\u000a\u0009}\u000a\u0009];\u000a\u000a\u000a}<!--这就是一个3次循环-->\u000a\u000a{{#each data}}\u000a\u0009\u0009<div class=\"post\">\u000a\u0009\u0009\u0009<h3>{{this.title}}</h3>\u000a{{/each}}\u000a<!--这就是一个提取内容的例子-->\u000a\u000a","readmeFilename":"README.md","_id":"alajs@1.0.67","dist":{"shasum":"d10cd109fe0b9ababb62e2288c3385c9fc6a1f97","tarball":"http://registry.npmjs.org/alajs/-/alajs-1.0.67.tgz"},"_from":".","_npmVersion":"1.3.22","_npmUser":{"name":"leeke","email":"leeke@ala-team.com"},"maintainers":[{"name":"leeke","email":"leeke@ala-team.com"}]}: alajs
+110 error     at RegClient.<anonymous> (/Users/fwind/.nvm/v0.11.9/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:275:14)
+110 error     at Request.self.callback (/Users/fwind/.nvm/v0.11.9/lib/node_modules/npm/node_modules/request/request.js:123:22)
+110 error     at Request.EventEmitter.emit (events.js:101:17)
+110 error     at Request.<anonymous> (/Users/fwind/.nvm/v0.11.9/lib/node_modules/npm/node_modules/request/request.js:893:14)
+110 error     at Request.EventEmitter.emit (events.js:120:20)
+110 error     at IncomingMessage.<anonymous> (/Users/fwind/.nvm/v0.11.9/lib/node_modules/npm/node_modules/request/request.js:844:12)
+110 error     at IncomingMessage.EventEmitter.emit (events.js:120:20)
+110 error     at _stream_readable.js:896:16
+110 error     at process._tickCallback (node.js:598:11)
+111 error If you need help, you may report this *entire* log,
+111 error including the npm and node versions, at:
+111 error     <http://github.com/isaacs/npm/issues>
+112 error System Darwin 13.0.0
+113 error command "node" "/Users/fwind/.nvm/v0.11.9/bin/npm" "publish"
+114 error cwd /Users/fwind/Dropbox/WorkSpace/alablog/node_modules/alajs
+115 error node -v v0.11.9
+116 error npm -v 1.3.22
+117 verbose exit [ 1, true ]

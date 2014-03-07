@@ -11,7 +11,14 @@ GLOBAL.alajs = {
 
 
 	validator : require('validator'),
-	md5:require('MD5')
+	md5:require('MD5'),
+	inArray:function(val,array){
+		for(index in array){
+			if(val === array[index])
+				return true;
+		}
+		return false;	
+	}
 }
 
 module.exports = global.alajs;
@@ -38,8 +45,8 @@ function create(appName,numCPUs){
   	} 
   	else {
   		var core = new Core(appName);
-		app = core.bootstrap();
-		GLOBAL.app =  core;
+  		app = core.bootstrap();
+  		GLOBAL.app =  core;
 
   	}
 

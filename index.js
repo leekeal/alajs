@@ -6,7 +6,10 @@ var handlers = require("./lib/globalHandler"); /*开启全局工具*/
 GLOBAL.alajs = {
 	bootstrap:function(appName,numCPUs){
 		handlers();/*加载handlers*/
-		return create(appName,numCPUs);
+		if(numCPUs == 1)
+			onCreate(appName)
+		else
+			create(appName,numCPUs);
 	},
 
 
@@ -26,7 +29,7 @@ module.exports = global.alajs;
 
 
 
-
+/*启动多个进程*/
 var cluster = require('cluster');
 function create(appName,numCPUs){
 	if (!numCPUs){
@@ -50,5 +53,12 @@ function create(appName,numCPUs){
 
   	}
 
+  }
+  
+  /*启动独立进程*/
+  function onCreate(appName){
+  	var core = new Core(appName);
+  	app = core.bootstrap();
+  	GLOBAL.app =  core;
   }
 

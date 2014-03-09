@@ -29,3 +29,4 @@ function createApplication(){
 
 // Error handler title
 exports.errorHandler.title = 'ALAJS';
+

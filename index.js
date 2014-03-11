@@ -1,1 +1,1 @@
-module.exports = require('./lib/alajs');
+module.exports = require('./lib/definer');

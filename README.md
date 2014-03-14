@@ -1,17 +1,20 @@
 ALAJS Get Started
 ====================================
-###1. 安装 
-	
-	1. npm install alajs --save    /*框架文件*/      
-	2. npm -g install node-dev     /*文件修改自动启动工具*/
+ALAJS is a simple mvc framework based on [koa](https://github.com/koajs/koa).Thank you very much, you are a great middle framework!
 
-###2. 创建app.js引入alajs	
+###1. Install 
+	
+	1. npm install alajs --save          
+	2. npm -g install node-dev     
+	
+
+###2. Create app.js file and require alajs	
 
 	var alajs = require('alajs');
 	
-###3. 定义一个app
+###3. Define an App
 	
-	App = alajs({           /*App请使用全局,不加var*/
+	App = alajs({           /*please set the App to gobal*/
 		name 		: 	'ALABLOG',
 		databases	: 	{
 			default:  'mysql:root@localhost/test',
@@ -21,7 +24,7 @@ ALAJS Get Started
 	});
 		
 	
-###4. 定义一个模块
+###4. Define a module
 
 	App.define.module({
 		name 			:   'root',
@@ -31,36 +34,38 @@ ALAJS Get Started
 		staticResources : 	'/static',
 	})
 	
-###5. 设置默认模块
+###5. Set default module
 
 	App.define.defaultModule('root');
 	
-###6. 定义一个服务器
+###6. Define a server
 
 	var server = App.define.server({port:3000});
 	
-###7. 加载App
+###7.  Loader App to server
 
 	server.loader(App);
 	
-###8. 启动服务器
+###8. Startup server
 
 	server.bootstrap();
 
-###9. 在controllers目录下创建一个welcome.js控制器文件，定义一个控制器
+###9. Create a welcome.js file in controllers folder and define a controller
 	
 	var welcome = App.define.controller({name:'welcome',url:'/welcome'})
 
-###10. 创建一个响应动作action
+###10. Define an action function for response
+
 	
 	welcome('you',function *(next){
 
 		this.body = 'You are welcome!'
 
 	})
-	
-###11 启动服务器
+		
+###11. Start this app
+
 	
 	node-dev --debug --harmony app.js
 	
-###访问 http://localhost:3000/welcome/you
+###12. Visit [http://localhost:3000/welcome/you](http://localhost:3000/welcome/you)

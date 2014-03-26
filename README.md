@@ -42,7 +42,7 @@ ALAJS is a simple mvc framework based on [koa](https://github.com/koajs/koa).Tha
 
 	var server = App.define.server({port:3000});
 	
-###7.  Loader App to server
+###7. Load App to server
 
 	server.loader(App);
 	

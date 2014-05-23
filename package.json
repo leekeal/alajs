@@ -53,7 +53,9 @@
     "koa-body": "0.0.4",
     "enforce": "~0.1.2",
     "koa-session": "~2.0.0",
-    "async": "~0.7.0"
+    "async": "~0.7.0",
+    "keygrip": "^1.0.1",
+    "memory-cache": "0.0.5"
   },
   "directories": {
     "doc": "docs"
